@@ -4,8 +4,8 @@ import "../component/Header.css"
 export default function Header(){
     return(
         <>
-            <div className="container-fulid  d-flex header">
-            <ul>
+            <div className="container-fulid d-flex  header">
+            <ul className="d-flex">
             
                 {/* <li><FaFacebook className="fa"/></li> */}
                 <li><img className="fa" src="https://cdn-icons-png.flaticon.com/128/1384/1384168.png" alt="error" /></li>
