@@ -1,17 +1,33 @@
+:root{
+    --blue: #12599e;
+    --white: #ffffff;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 .header{
     background-color: #12599e;
-    /* display: flex; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  
+    
 }
 ul>li>.fa{
     color: #12599e;
-    height: 25px;
+    height: 16px;
     width: auto;
 }
 ul>li{
     list-style: none;
    
+}
+.headerSpan{
+    font-size: 1rem;
+    color: white;
+}
+.headerUl1>li{
+    padding: 0px 13px 0px 13px;
+    font-size: 20px;
 }
