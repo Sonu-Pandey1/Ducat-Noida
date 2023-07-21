@@ -4,7 +4,7 @@ import "../component/Header.css"
 export default function Header(){
     return(
         <>
-            <div className="container-fulid d-flex  header">
+            <div className="container-fulid d-flex header">
             <ul className="d-flex">
             
                 {/* <li><FaFacebook className="fa"/></li> */}
