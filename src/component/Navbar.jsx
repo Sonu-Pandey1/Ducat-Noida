@@ -1,4 +1,5 @@
 import {} from "react"
+import { NavLink } from "react-router-dom"
 
 export default function Navbar(){
     return(
@@ -52,7 +53,7 @@ export default function Navbar(){
           <a className="nav-link active" aria-current="page" href="#">Contact-Us</a>
         </li>
         {/* <Navlink to={"/contact"}>Contact-Us</Navlink> */}
-        
+        {/* <NavLink to={"/contact"}>contact</NavLink> */}
       </ul>
     </div>
   </div>
