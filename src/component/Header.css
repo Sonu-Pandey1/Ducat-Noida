@@ -11,11 +11,13 @@
     display: flex;
     justify-items: center;
     align-items: center;
+    height: auto;
+    width: 100%;
   
     
 }
 ul>li>.fa{
-    color: #12599e;
+    /* color: #12599e; */
     height: 16px;
     width: auto;
 }

@@ -9,9 +9,9 @@ import "../component/Header.css"
 export default function Header() {
     return (
         <>
-            <div className="row  pt-3  header">
-                <div className="col col-md-6">
-                    <div className="container">
+            <div className="  pt-3  header ">
+                <div className="col col-md-6 ">
+                    <div className="container ">
                         <ul className="d-flex ms-5 ps-4 headerUl1  ">
 
                             {/* <li><FaFacebook className="fa"/></li> */}
