@@ -225,6 +225,7 @@
 .Course_CategoriesDiv1{
     display: flex;
     align-content: center;
+    /* background-color: red; */
     padding: 40px 60px;
 }
 .CertificateContainer{
@@ -283,4 +284,58 @@
     background-color: rgba(128, 128, 128, 0.476)   !important;
     box-shadow: rgb(128, 128, 128) 0px 0px 22px 10px;
    
+}
+
+/* section Upcoming-Batches */
+
+.Upcoming-Batches h1{
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 1px;
+    margin-top: 50px;
+}
+.Upcoming-Batches h5{
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+    
+}
+
+.branchsTabs button{
+    padding: 6px 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #12599E;
+}
+.ourBrancheslist{
+    padding: 0px 76px;
+    margin-bottom: 20px;
+
+}
+.list-group{
+    margin-top: 20px;
+    /* width: 3 0%; */
+}
+.list-group span{
+    float: right;
+   
+}
+.list-group-item{
+    padding: 20px;
+}
+.list-group-item button{
+    width: 100%;
+    background-color: #12599E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.batchesListMain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subbtn{
+    
 }
