@@ -59,6 +59,10 @@ export default function Home() {
       </section>
       {/* Popular Courses */}
       <section className="Popular-Courses">
+      <h1>Popular Courses</h1>
+      <div className="carsol">
+        
+      </div>
       
 
       </section>
