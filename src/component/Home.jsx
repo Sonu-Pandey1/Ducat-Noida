@@ -1,8 +1,10 @@
 // import React from 'react'
+
 import { FiSearch } from "react-icons/fi"
 import { FaRegEnvelope } from "react-icons/fa"
 import { NavLink } from "react-router-dom"
 import CourseItems from "./CourseItems"
+import Carousel from "react-elastic-carousel"
 
 export default function Home() {
   return (
@@ -32,7 +34,7 @@ export default function Home() {
       </div>
       {/* Course Categories section */}
       <section className="Course_Categories">
-        <h1>Course Categories</h1>
+        <h3>Course Categories</h3>
         <div className="Course_CategoriesDiv1">
           <div className="courseItemsdiv">
             <CourseItems title={"Java"} img={"https://admin.ducatindia.com/courseCategory/1677400384470javalogo.png"} />
@@ -56,14 +58,35 @@ export default function Home() {
       
           </div>
         </div>
-      </section>
+      </section> 
       {/* Popular Courses */}
       <section className="Popular-Courses">
-      <h1>Popular Courses</h1>
-      <div className="carsol">
+      <h3>Popular Courses</h3>
+      <div className="carsol  mt-4 pb-4 pt-4">
+      <Carousel className="styling-example " itemsToShow={3} enableAutoPlay={true} pagination={false} >
+  <div><CourseItems btn={true} title={"MERN STACK"} img={"https://admin.ducatindia.com/course/1686720666118Mernstack.jpg"}/></div>
+  <div><CourseItems btn={true} title={"WEB DESIGNING"} img={"https://admin.ducatindia.com/course/1676885368692web%20designing.jpg"} /></div>
+  <div><CourseItems btn={true} title={"ETHICAL HACKING v12"} img={"https://admin.ducatindia.com/course/1676886015025Ethical%20Hacking.jpg"}/></div>
+  <div><CourseItems btn={true} title={"PHOTOGRAPHY"} img={"https://png.pngtree.com/png-vector/20220502/ourmid/pngtree-blue-aperture-photography-logo-png-image_4561840.png"}/></div>
+  <div><CourseItems btn={true} title={"BEST PYTHON TRANING COURSE"} img={"https://admin.ducatindia.com/course/1677044014782Python%20%202.jpg"}/></div>
+  <div><CourseItems btn={true} title={"BEST ERP SAP TRANING INSITUTE"} img={"https://admin.ducatindia.com/course/1676885174856Erp.jpg"}/></div>
+  <div><CourseItems btn={true} title={"DIGITAL MARKETING"} img={"https://admin.ducatindia.com/course/1688465092051digital-marketing-course%20in%20Delhi.jpg"}/></div>
+  <div><CourseItems btn={true} title={"PYTHON FULL STACK DEVELOPER"} img={"https://admin.ducatindia.com/course/1686720747674PythonFullstack.jpg"}/></div>
+  <div><CourseItems btn={true} title={"JAVA EXPERT"} img={"https://admin.ducatindia.com/course/1677043956520java%20New.jpg"}/></div>
+  <div><CourseItems btn={true} title={"MEAN STACK"} img={"https://admin.ducatindia.com/course/1686720562373MEANSTACK1.jpg"}/></div>
+  <div><CourseItems btn={true} title={"JAVA FULL STACK DEVELOPER"} img={"https://admin.ducatindia.com/course/1677490908031JavaFullStack.jpg"}/></div>
+  <div><CourseItems btn={true} title={"FRONT END DEVELOPER"} img={"https://admin.ducatindia.com/course/1676886015025Ethical%20Hacking.jpg"}/></div>
+</Carousel> 
+      </div>
+      </section>
+
+      {/* section Upcoming Batches */}
+      <section className="Upcoming-Batches">
+      <h1>Upcoming Batches</h1>
+      <h5>Choose Your Nearest Location</h5>
+      <div className="ourBrancheslist">
         
       </div>
-      
 
       </section>
     </>

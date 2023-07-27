@@ -85,9 +85,10 @@
     width: 75%;
     height: 40px;
     border: none;
+    outline: none;
     /* outline: 15px solid rgba(0, 0, 0, 0.2); */
     border-radius: 3px;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -142,26 +143,71 @@
     display: inline-block;
     
 }
-.card>img{
+.card1>.img1{
     /* height: 150px; */
     padding: 15px 50px;
 }
+.card2>.img2{
+    /* height: 150px; */
+    padding: 0px 0px;
+}
 
-.card{
+.card1{
     box-sizing: border-box;
     text-align: center;
     height: 180px;
     /* padding: 10px; */
     /* row-gap: ; */
     margin-bottom: 25px;
+    width: 11rem;
+    border: 1px groove rgba(128, 128, 128, 0.281);
+    cursor: pointer;
+    /* border-radius: 10%; */
+
 }
-.card:hover{
+.card2{
+    border-radius: 4px;
+    width: 23rem;
+    height: 22rem;
+    padding: 20px;
+    background-color: #ced0d974;
+    text-align: center;
+    border: 1px groove rgba(128, 128, 128, 0.119);
+
+}
+.card1:hover{
    color: #0E477E;
 }
-.card>.card-body>.card-title{
+.card-body>h5{
+   font-weight: 400;
+   padding-top: 15px;
+   cursor: pointer;
+   
+}
+.card-body>h5:hover{
+   color: #0E477E;
+}
+
+.card1>.card-body>.card-title{
     font-size:1rem;
     font-weight: 400;
 
+}
+.card2>.card-body>button{
+    width: 100%;
+    height: 6vh;
+    background-color:#12599E;
+    margin-top:45px ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.card2 span{
+    position: absolute;
+    background-color: #22afe0;
+    padding: 8px 25px 8px 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 400px;
 }
 .courseItemsdiv{
     display: flex;
@@ -170,7 +216,7 @@
     align-items:center;
     
 }
-.Course_Categories>h1{
+.Course_Categories>h3{
     text-align: center;
     font-weight: 100;
     letter-spacing: 1px;
@@ -181,5 +227,60 @@
     align-content: center;
     padding: 40px 60px;
 }
+.CertificateContainer{
+    text-align: center;
+    background-color: #12599E;
+    padding: 3vh;
+    color: white;
+}
+.CertificateContainer>h1{
+    font-weight: 400;
+    
+   
+}
+.brd{
+    padding-left: 45%;
+    color: white;
+}
+.brdsub{
+    color: white;
+    text-decoration: none;
+}
+.brdsub:hover{
+    color: rgb(17, 161, 187);
+    text-decoration: none;
+}
+
 
 /* Popular Courses */
+.Popular-Courses h3{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 2vh;
+}
+.carsol .slidimg{
+    height: 200px;
+    width: 100%;
+}
+
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+.rec.rec-arrow {
+    background-color:rgba(128, 128, 128, 0.281);
+    color: #12599E;
+    
+    
+}
+.iWchow:hover:enabled, .iWchow:focus:enabled {
+    color: rgb(230, 12, 12) !important;
+    background-color: rgba(128, 128, 128, 0.476)   !important;
+    box-shadow: rgb(128, 128, 128) 0px 0px 22px 10px;
+   
+}
