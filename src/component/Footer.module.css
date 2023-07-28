@@ -1,0 +1,223 @@
+section8
+.section8 {
+    background-color: #181d38;
+    height: 62vh;
+    width: 100%;
+  }
+  .subsection8 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerinnerdiv {
+    height: 100%;
+    width: 22%;
+  }
+  .footerinnerdiv h1 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "Nunito";
+  }
+  .footerinnerdiv .footerul {
+    padding-bottom: 13px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .footerinnerdiv .footerul a {
+    text-decoration: none;
+  }
+  .footerinnerdiv .footerul li {
+    padding-bottom: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .footerli1::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  .footerinnerdiv .footerul2 {
+    padding-bottom: 13px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .footerinnerdiv .footerul2 a {
+    text-decoration: none;
+  }
+  .footerinnerdiv .footerul2 li {
+    padding-bottom: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .footerli2::before {
+    position: relative;
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 13px;
+  }
+  .footerli22::before {
+    position: relative;
+    content: "\f879";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  .footerli23::before {
+    position: relative;
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  .footersocicalicons {
+    display: flex;
+  }
+  .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    transition: 0.5s;
+  }
+  .footersocicalicons a {
+    text-decoration: none;
+  }
+  .footersocicalicons i {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footersocicalicons i {
+    color: #06bbcc !important;
+  }
+  .btn.btn-social:hover {
+    background-color: #ffffff;
+  }
+  .footersection3div {
+    height: 30%;
+    width: 100%;
+  }
+  .footersection3innerdiv1 {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection3innerdiv1 .footersection3dblinnerdiv {
+    width: 31%;
+    height: 100%;
+  }
+  .footersection3innerdiv1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .footersection3innerdiv2 {
+    height: 45%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footersection3innerdiv2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .footersection3innerdiv2 .footersection3dblinnerdiv2 {
+    width: 31%;
+    height: 100%;
+  }
+  .footerinnerdiv4 p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .footerinnerdiv4 .email {
+    margin-top: 25px;
+    padding: 17px;
+    width: 80%;
+  }
+  .footerinnerdiv4 button {
+    font-size: 18px;
+    padding: 8px 10px 8px 10px;
+    color: #ffffff;
+    background-color: #46d0dc;
+    position: relative;
+    top: -45px;
+    left: 155px;
+    border: none;
+  }
+  .email::placeholder {
+    font-size: 17px;
+    font-weight: 100;
+    color: #52565b;
+  }
+  .section9::before {
+    position: absolute;
+    content: "ram";
+    width: 4%;
+    height: 2px;
+    top: 3px;
+    left: 555px;
+    margin-top: 0px;
+    background-color: #06bbcc;
+    z-index: 1;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+  .innerparentdiv {
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  .innerparentdivul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .innerparentdivul li {
+    padding-right: 25px;
+  
+    list-style: none;
+    font-size: 17px;
+  }
+  .innerparentdiv p {
+    font-size: 17px;
+  }
+  
+  .innerparentdiv a {
+    text-decoration: underline;
+    padding-top: 10px;
+    color: #ffffff;
+  }
+  .innerparentdiv p::before {
+    content:'' ;
+  }
+  
