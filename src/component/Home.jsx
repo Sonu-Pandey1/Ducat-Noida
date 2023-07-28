@@ -125,7 +125,7 @@ export default function Home() {
       {/* Our Clients */}
       <section className="Our_Clients">
       <h1>Our Clients</h1>
-      <div className="carsol  mt-4 pb-4 pt-4">
+      <div className="carsol mt-4 pb-4 pt-4">
           <Carousel className="styling-example " itemsToShow={6} enableAutoPlay={true} pagination={false} >
             <div><CourseItems clint={true} title={"Steria"}  img={"https://admin.ducatindia.com/clients/1676892246870Steria.png"} /></div>
             <div><CourseItems clint={true} title={"TATA Consultancy Services"}  img={"https://admin.ducatindia.com/clients/1676892273832TATA%20Consultancy%20Services.png"} /></div>

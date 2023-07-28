@@ -150,38 +150,29 @@
     
 }
 .card1>.img1{
-    /* height: 150px; */
     padding: 15px 50px;
 }
 .card2>.img2{
-    /* height: 150px; */
     padding: 0px 0px;
 }
 .card3>.img3{
-    /* background-color: #FA6D39; */
-    /* margin-top: -10px; */
     border-radius: 100%;
     padding: 10px 70px;
 }
 .card4>.img4{
-    /* background-color: #FA6D39; */
-    /* margin-top: -10px; */
-    border-radius: 100%;
-    /* padding: 10px 70px; */
+    border-radius: 4%;
+    border: 1px groove rgba(128, 128, 128, 0.119);
+    
 }
 
 .card1{
     box-sizing: border-box;
     text-align: center;
     height: 180px;
-    /* padding: 10px; */
-    /* row-gap: ; */
     margin-bottom: 25px;
     width: 11rem;
     border: 1px groove rgba(128, 128, 128, 0.281);
     cursor: pointer;
-    /* border-radius: 10%; */
-
 }
 .card2{
     border-radius: 4px;
@@ -198,20 +189,14 @@
     width: 23rem;
     height: 28rem;
     padding: 20px;
-    /* background-color: #ced0d93a; */
     text-align: center;
     border: 1px groove rgba(128, 128, 128, 0.119);
 
 }
 .card4{
-    /* border-radius: 4px; */
-    /* width: 23rem;
-    height: 28rem;
-    padding: 20px; */
     background-color: #ced0d93a;
-    /* text-align: center;
-    border: 1px groove rgba(128, 128, 128, 0.119); */
-
+    text-align: center;
+    padding: 0px 10px;
 }
 .card1:hover{
    color: #0E477E;
@@ -223,8 +208,6 @@
    
 }
 .card-body p{
-margin-top: 20px ;
-background-color: white;
 padding: 10px;
 text-align:justify;
 }
@@ -237,11 +220,16 @@ text-align:justify;
     font-weight: 400;
 
 }
+.card3>.card-body>.card-title{
+    font-size:1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
 .card2>.card-body>button{
     width: 100%;
     height: 6vh;
     background-color:#12599E;
-    margin-top:20px ;
+    margin-top:10px ;
     color: white;
     border: none;
     border-radius: 4px;
@@ -385,7 +373,7 @@ text-align:justify;
 /* Our Students Say */
 .Our_Students_Say h1{
     text-align: center;
-    font-weight: 350;
+    font-weight: 150;
     letter-spacing: 1px;
 
 }
@@ -398,10 +386,18 @@ background-color: #ced0d93a;
 
 }
 .Our_Clients h1{ 
-font-weight: 350;
+font-weight: 150;
 text-align: center;
 letter-spacing: 1px;
 margin-top: 12vh;
+
+}
+.Our_Clients .clientdata{
+    background-color:transparent;
+
+}
+.Our_Clients .clientdata img{
+    height: 40%;
 
 }
 
