@@ -141,11 +141,110 @@ export default function Home() {
             <div><CourseItems clint={true} title={"Cognizant"}  img={"https://admin.ducatindia.com/clients/1676892165559Cognizant.png"} /></div>
             <div><CourseItems clint={true} title={"Hewitt"}  img={"https://admin.ducatindia.com/clients/1676892192426Hewitt.png"} /></div>
             <div><CourseItems clint={true} title={"IBM"}  img={"https://admin.ducatindia.com/clients/1676892216598IBM.png"} /></div>
-            
           </Carousel>
         </div>
-
       </section>
+      {/* footer */}
+      <section id="Contact-Us" class="section8parent">
+                <section class="section8">
+                    <div class="subsection8">
+                        <div class="footer">
+                            <div class="footerinnerdiv footerinnerdiv1">
+                                <h1>Quick Link</h1>
+                                <ul class="footerul">
+                                    <a href="">
+                                        <li class="footerli1">About Us</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli1">Contact Us</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli1">Privacy Policy</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli1">Terms & Condition</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli1">FAQs & Help</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="footerinnerdiv footerinnerdiv2">
+                                <h1>Contact</h1>
+                                <ul class="footerul2">
+                                    <a href="">
+                                        <li class="footerli2">123 Street, New York, USA</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli22">+012 345 67890</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="footerli23">info@example.com</li>
+                                    </a>
+                                </ul>
+                                <div class="footersocicalicons">
+                                    <a class="btn btn-social" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-social" href=""><i class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="footerinnerdiv footerinnerdiv3">
+                                <h1>Gallery</h1>
+                                <div class="footersection3div">
+                                    <div class="footersection3innerdiv1">
+                                        <div class="footersection3dblinnerdiv d1">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-1.jpg">
+                                        </div>
+                                        <div class="footersection3dblinnerdiv d2">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-2.jpg">
+                                        </div>
+                                        <div class="footersection3dblinnerdiv d3">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-3.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="footersection3innerdiv2">
+                                        <div class="footersection3dblinnerdiv2 d4">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-2.jpg">
+                                        </div>
+                                        <div class="footersection3dblinnerdiv2 d5">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-3.jpg">
+                                        </div>
+                                        <div class="footersection3dblinnerdiv2 d6">
+                                            <img
+                                                src="https://demo.htmlcodex.com/2151/elearning-html-template/img/course-1.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footerinnerdiv footerinnerdiv4">
+                                <h1>Newsletter</h1>
+                                <p>Dolor amet sit justo amet elitr<br> clita ipsum elitr est.</p>
+                                <input type="email" class="email" placeholder="Your email" required>
+                                <button>SignUp</button>
+                                <!-- 84485 13439 Khushi -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="innerparentdiv">
+                            <p>© <a href="#"> MindedCoder </a>, All Right Reserved. Designed By <a href="#"> Sonu
+                                    Pandey</a></p>
+                            <ul class="innerparentdivul">
+                                <li>Home</li>
+                                <li>Cookies</li>
+                                <li>Help</li>
+                                <li>FAQs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
     </>
   )
 }
