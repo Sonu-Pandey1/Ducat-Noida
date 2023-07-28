@@ -3,7 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.navbar{
+    background-color: #ffffff;
+    position:sticky;
+    top: 0px;
+    z-index: 10;
+    
+}
 .navbarUl>.nav-item>.nav-link {
     font-size: 1.1rem;
     font-weight: 450;
@@ -151,6 +157,18 @@
     /* height: 150px; */
     padding: 0px 0px;
 }
+.card3>.img3{
+    /* background-color: #FA6D39; */
+    /* margin-top: -10px; */
+    border-radius: 100%;
+    padding: 10px 70px;
+}
+.card4>.img4{
+    /* background-color: #FA6D39; */
+    /* margin-top: -10px; */
+    border-radius: 100%;
+    /* padding: 10px 70px; */
+}
 
 .card1{
     box-sizing: border-box;
@@ -175,6 +193,26 @@
     border: 1px groove rgba(128, 128, 128, 0.119);
 
 }
+.card3{
+    border-radius: 4px;
+    width: 23rem;
+    height: 28rem;
+    padding: 20px;
+    /* background-color: #ced0d93a; */
+    text-align: center;
+    border: 1px groove rgba(128, 128, 128, 0.119);
+
+}
+.card4{
+    /* border-radius: 4px; */
+    /* width: 23rem;
+    height: 28rem;
+    padding: 20px; */
+    background-color: #ced0d93a;
+    /* text-align: center;
+    border: 1px groove rgba(128, 128, 128, 0.119); */
+
+}
 .card1:hover{
    color: #0E477E;
 }
@@ -183,6 +221,12 @@
    padding-top: 15px;
    cursor: pointer;
    
+}
+.card-body p{
+margin-top: 20px ;
+background-color: white;
+padding: 10px;
+text-align:justify;
 }
 .card-body>h5:hover{
    color: #0E477E;
@@ -197,7 +241,7 @@
     width: 100%;
     height: 6vh;
     background-color:#12599E;
-    margin-top:45px ;
+    margin-top:20px ;
     color: white;
     border: none;
     border-radius: 4px;
@@ -307,6 +351,7 @@
     border-radius: 6px;
     border: none;
     background-color: #12599E;
+    color: white;
 }
 .ourBrancheslist{
     padding: 0px 76px;
@@ -336,6 +381,27 @@
     display: flex;
     flex-wrap: wrap;
 }
-.subbtn{
-    
+
+/* Our Students Say */
+.Our_Students_Say h1{
+    text-align: center;
+    font-weight: 350;
+    letter-spacing: 1px;
+
 }
+.Our_Students_Say{
+background-color: #ced0d93a;
+}
+/* Our_Clients */
+.Our_Clients{
+background-color: #ced0d93a;
+
+}
+.Our_Clients h1{ 
+font-weight: 350;
+text-align: center;
+letter-spacing: 1px;
+margin-top: 12vh;
+
+}
+

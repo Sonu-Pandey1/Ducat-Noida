@@ -4,7 +4,7 @@ import "./Navbar.css"
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar shadow  navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid m-1">
           <a className="navbar-brand acontainer ms-5 ps-4" href="/"><img src="/images/ducatLogo2.png" style={{ height: "60px" }} alt="errpr"></img></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

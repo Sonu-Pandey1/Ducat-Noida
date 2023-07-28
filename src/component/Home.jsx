@@ -107,7 +107,42 @@ export default function Home() {
               <button className="btn btn-outline-primary subbtn">Load More</button>
             </div>
           </div>
-
+        </div>
+      </section>
+      {/* section Our Students Say */}
+      <section className="Our_Students_Say">
+      <h1>Our Students Say</h1>
+      <div className="carsol  mt-4 pb-4 pt-4">
+          <Carousel className="styling-example " itemsToShow={3} enableAutoPlay={true} pagination={false} >
+            <div><CourseItems review={true} title={"Sonu Pandey"} para={'"Ducat is really very good inisitute here you can get all the services and all the spacial courese for your spacial goal here you can see that tha techars ae very frendly  so you can easely ask any query ease learnin courses are available here ."'} img={"https://images.unsplash.com/photo-1519764622345-23439dd774f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"} /></div>
+            <div><CourseItems review={true} para={'"Ducat is really very good inisitute here you can get all the services and all the spacial courese for your spacial goal here you can see that tha techars ae very frendly  so you can easely ask any query ease learnin courses are available here ."'} title={"Shivam Gupta"} img={"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"} /></div>
+            <div><CourseItems review={true} para={'"Ducat is really very good inisitute here you can get all the services and all the spacial courese for your spacial goal here you can see that tha techars ae very frendly  so you can easely ask any query ease learnin courses are available here ."'} title={"Khushi"} img={"https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"} /></div>
+            <div><CourseItems review={true} para={'"Ducat is really very good inisitute here you can get all the services and all the spacial courese for your spacial goal here you can see that tha techars ae very frendly  so you can easely ask any query ease learnin courses are available here ."'}  title={"Vishal pandey"} img={"https://images.unsplash.com/photo-1530107973768-581951e62d34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"} /></div>
+            <div><CourseItems review={true} para={'"Ducat is really very good inisitute here you can get all the services and all the spacial courese for your spacial goal here you can see that tha techars ae very frendly  so you can easely ask any query ease learnin courses are available here ."'}  title={"Shubham Gupta"} img={"https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"} /></div>
+          </Carousel>
+        </div>
+      </section>
+      {/* Our Clients */}
+      <section className="Our_Clients">
+      <h1>Our Clients</h1>
+      <div className="carsol  mt-4 pb-4 pt-4">
+          <Carousel className="styling-example " itemsToShow={6} enableAutoPlay={true} pagination={false} >
+            <div><CourseItems clint={true} title={"Steria"}  img={"https://admin.ducatindia.com/clients/1676892246870Steria.png"} /></div>
+            <div><CourseItems clint={true} title={"TATA Consultancy Services"}  img={"https://admin.ducatindia.com/clients/1676892273832TATA%20Consultancy%20Services.png"} /></div>
+            <div><CourseItems clint={true} title={"Jubilant"}  img={"https://admin.ducatindia.com/clients/1676892297227Jubilant.png"} /></div>
+            <div><CourseItems clint={true} title={"Infosys"}  img={"https://admin.ducatindia.com/clients/1676892318860infosys.png"} /></div>
+            <div><CourseItems clint={true} title={"Ibilt"}  img={"https://admin.ducatindia.com/clients/1676891813273Ibilt.png"} /></div>
+            <div><CourseItems clint={true} title={"Accenture"}  img={"https://admin.ducatindia.com/clients/1676891842962Accenture.png"} /></div>
+            <div><CourseItems clint={true} title={"Aditya Birla Group"}  img={"https://admin.ducatindia.com/clients/1676891900421Aditya%20Birla%20Group.png"} /></div>
+            <div><CourseItems clint={true} title={"Algoscale"}  img={"https://admin.ducatindia.com/clients/1676891928669Algoscale.png"} /></div>
+            <div><CourseItems clint={true} title={"BAJAJ"}  img={"https://admin.ducatindia.com/clients/1676891956504BAJAJ.png"} /></div>
+            <div><CourseItems clint={true} title={"Birlasoft"}  img={"https://admin.ducatindia.com/clients/1676892103444Birlasoft.png"} /></div>
+            <div><CourseItems clint={true} title={"CSC"}  img={"https://admin.ducatindia.com/clients/1676892139481CSC.png"} /></div>
+            <div><CourseItems clint={true} title={"Cognizant"}  img={"https://admin.ducatindia.com/clients/1676892165559Cognizant.png"} /></div>
+            <div><CourseItems clint={true} title={"Hewitt"}  img={"https://admin.ducatindia.com/clients/1676892192426Hewitt.png"} /></div>
+            <div><CourseItems clint={true} title={"IBM"}  img={"https://admin.ducatindia.com/clients/1676892216598IBM.png"} /></div>
+            
+          </Carousel>
         </div>
 
       </section>
