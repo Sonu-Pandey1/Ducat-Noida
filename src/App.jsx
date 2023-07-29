@@ -11,6 +11,9 @@ import About from "./component/About"
 import Blog from "./component/Blog"
 import Contact from "./component/Contact"
 import Page404 from "./component/Page404"
+import Applycertificate from "./component/Applycertificate"
+import Verifycertificate from "./component/Verifycertificate"
+import Downloadcertificate from "./component/Downloadcertificatee"
 
 // import './App.css'
 
@@ -34,6 +37,10 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/Blog' element={<Blog/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/apply-for-certificate' element={<Applycertificate/>}/>
+      <Route path='/download-certificate' element={<Downloadcertificate/>}/>
+      <Route path='/verify-certificate' element={<Verifycertificate/>}/>
+      
      
       
     </Routes>

@@ -8,12 +8,12 @@ export default function Certificate() {
     <>
       <div className="CertificateContainer">
         <h1>Certificate</h1>
-        <Breadcrumbs className={"CertificateBreadcrumb"} Path={Certificate} />
+        <Breadcrumbs className={"CertificateBreadcrumb"} Path={ "Certificate"} />
       </div>
-      <section className="Certificatemain">
-        <NavLink to={"/apply-for-certificate"}>Apply For Certificate</NavLink>
-        <NavLink to={"download-certificate"}>Download Certificate</NavLink>
-        <NavLink to={"verify-certificate"}>verify Certificate</NavLink>
+      <section className="Certificatemain d-flex justify-content-center">
+        <NavLink className={"navlink"} to={"/apply-for-certificate"}>Apply For Certificate</NavLink>
+        <NavLink className={"navlink"} to={"/download-certificate"}>Download Certificate</NavLink>
+        <NavLink className={"navlink"} to={"/verify-certificate"}>verify Certificate</NavLink>
       </section>
     </>
   )

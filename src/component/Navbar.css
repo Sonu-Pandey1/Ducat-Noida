@@ -264,20 +264,24 @@ text-align:justify;
 .CertificateContainer{
     text-align: center;
     background-color: #12599E;
-    padding: 3vh;
+    padding: 2vh;
     color: white;
 }
 .CertificateContainer>h1{
-    font-weight: 400;
-    
-   
+    font-weight: 100;
+    letter-spacing: 1px; 
 }
 .brd{
     padding-left: 45%;
     color: white;
 }
-.brdsub{
+.navlinkss{
     color: white;
+    /* background-color: #FA6D39; */
+    text-decoration: none;
+}
+.brdsub{
+    
     text-decoration: none;
 }
 .brdsub:hover{
@@ -635,4 +639,19 @@ margin-top: 12vh;
 
   }
   
+  /* certifaction css */
 
+  .Certificatemain{
+    /* background-color: red; */
+    margin-top: 16vh;
+  }
+
+.Certificatemain>.navlink{
+  background-color:#FA6D39;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin: 15px;
+  border-radius: 6px;
+
+}
