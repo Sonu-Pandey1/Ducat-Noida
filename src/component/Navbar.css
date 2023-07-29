@@ -269,20 +269,32 @@ text-align:justify;
 }
 .CertificateContainer>h1{
     font-weight: 100;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
+    text-align: center; 
 }
 .brd{
     padding-left: 45%;
     color: white;
+    text-align: center;
+    /* background-color: #06bbcc; */
 }
 .navlinkss{
     color: white;
     /* background-color: #FA6D39; */
     text-decoration: none;
 }
+.navlinkss:hover{
+  /* background-color: #06bbcc; */
+  color:#FA6D39;
+    /* color: rgb(255, 255, 255); */
+    /* background-color: #FA6D39; */
+    text-decoration: none;
+    /* background-color: #06bbcc; */
+}
 .brdsub{
     
     text-decoration: none;
+ 
 }
 .brdsub:hover{
     color: rgb(17, 161, 187);
@@ -644,6 +656,8 @@ margin-top: 12vh;
   .Certificatemain{
     /* background-color: red; */
     margin-top: 16vh;
+    /* background-color: red; */
+    margin-bottom: 25vh;
   }
 
 .Certificatemain>.navlink{
@@ -654,4 +668,39 @@ margin-top: 12vh;
   margin: 15px;
   border-radius: 6px;
 
+}
+
+/* about section */
+.aboutsection{
+  margin: 25px;
+}
+.aboutsection :nth-child(1){
+  font-weight: bold;
+  /* background-color: #06bbcc; */
+}
+.aboutsection h1{
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+
+/* contact section */
+
+.contactSection{
+  /* margin: 0vh 20vh ; */
+  padding: 15vh 30vh;
+ 
+}
+.formwrapper{
+  background-color: #ced0d93a;
+}
+.contextContactinfocards h1{
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.contextContactinfocards p{
+  /* font-weight: 300; */
+  letter-spacing: 1px;
+  text-align: center;
 }
