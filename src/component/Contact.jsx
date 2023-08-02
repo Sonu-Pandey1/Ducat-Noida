@@ -1,6 +1,7 @@
 // import React from 'react'
 // import { NavLink } from "react-router-dom";
 import Breadcrumbs from "./Breadcrumbs";
+import ContactInfoCards from "./ContactInfoCards";
 
 
 export default function Contact() {
@@ -85,8 +86,19 @@ export default function Contact() {
 
       <section className="contextContactinfocards">
             <h1>Contact Info</h1>
-            <p>Ducat India</p>
-
+            <p className="para">Ducat India</p>
+            <div className="container cardsWrappercontext">
+            <div className="row">
+            
+              <div className="col col-6 "><ContactInfoCards title={"Noida Sector 16 (Corporate Office)"} phone={9999993213} address={"Address :A-43 & A-52, Sector 16, Behind MacD, Noida, 201301, UP"}/></div>
+              <div className="col col-6 "><ContactInfoCards title={"Sector 63 Noida (Branch office)"} phone={7042175774} address={"Address :H-43, Sector-63, Noida (Near Electronic City Metro Station)"}/></div>
+              <div className="col col-6 "><ContactInfoCards title={"Pitampura (Branch office)"} phone={7042336264} address={"Address : Plot No. 366, 2nd Floor, Kohat Enclave, Pitampura, ( Near- Kohat Metro Station) Above Allahabad Bank, New Delhi- 110034."}/></div>
+              <div className="col col-6 "><ContactInfoCards title={"South Ex. (Branch office)"} phone={9811612707} address={"Address : D-27,South Extension-1 New Delhi-110049"}/></div>
+              <div className="col col-6 "><ContactInfoCards title={"Ghaziabad (Branch office)"} phone={ 9810851363} address={"Address :Anand Industrial Estate Near ITS College, Mohan Nagar Ghaziabad (U.P.)"}/></div>
+              <div className="col col-6 "><ContactInfoCards title={"Gurugram (Branch office)"} phone={7070905090} address={"Address : 1808/2, 2nd FLOOR OLD DLF NEAR HONDA SHOWROOM, SECTOR-14, Gurgaon (Haryana)"}/></div>
+             
+            </div>
+            </div>
             </section>
 
       <section id="Contact-Us" className="section8parent">

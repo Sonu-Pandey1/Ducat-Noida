@@ -21,10 +21,10 @@ export default function Navbar() {
                   Course
                 </a>
                 <ul className="dropdown-menu ">
-                  <li><NavLink className="dropdown-item" to="#">Action</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action2</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action3</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action4</NavLink></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">Javascript</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">Python</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">React</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">Redux</NavLink></li>
 
                   {/* <li><hr className="dropdown-divider"/></li> */}
                   {/* <li><a className="dropdown-item" href="#">Something else here</a></li> */}
@@ -35,10 +35,10 @@ export default function Navbar() {
                   Services
                 </a>
                 <ul className="dropdown-menu">
-                  <li><NavLink className="dropdown-item" to="#">Action</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action2</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action3</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="#">Action4</NavLink></li>
+                  <li><NavLink className="dropdown-item bg-light text-black" to="#">Website Development</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">ios Development</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">Game Development</NavLink></li> <li><hr className="dropdown-divider"/></li>
+                  <li><NavLink className="dropdown-item  bg-light text-black" to="#">Grapics Designier</NavLink></li> {/* <li><hr className="dropdown-divider"/></li> */}
                 </ul>
               </li>
               <li className="nav-item px-2">
