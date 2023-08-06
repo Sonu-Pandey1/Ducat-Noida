@@ -1,22 +1,27 @@
 {
   "name": "ducat-noida",
+  "homepage": "https://Sonu-Pandey1.github.io/Ducat-Noida",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
     "formik": "^2.4.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
+    
     "react-icons": "^4.10.1",
     "react-redux": "^8.1.1",
     "react-router-dom": "^6.14.2",

@@ -94,9 +94,9 @@ export default function Home() {
             <button>Ghaziabad</button>
             <button>Gurugram</button>
           </div>
-          <div className="container">
+          <div className="container bg-danger">
             <div className=" row batchesListMain">
-              <div className="col-4"> <BatchesList /></div>
+              <div className="col-4 bg-info"> <BatchesList /></div>
               <div className="col-4"> <BatchesList /></div>
               <div className="col-4"> <BatchesList /></div>
               <div className="col-4"> <BatchesList /></div>
