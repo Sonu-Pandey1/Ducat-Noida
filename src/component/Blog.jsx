@@ -6,7 +6,7 @@ import CourseItems from "./CourseItems";
 
 export default function Blog() {
   return (
-    <>
+    <> 
       <div className="CertificateContainer">
         <h1>Blog</h1>
         <Breadcrumbs className={"CertificateBreadcrumb"} Path={ " / Blog"} />
